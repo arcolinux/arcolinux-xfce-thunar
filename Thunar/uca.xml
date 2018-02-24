@@ -1,0 +1,111 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1488955845049151-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>preferences-desktop-wallpaper</icon>
+	<name>Set wallpaper dual</name>
+	<unique-id>1489091347351863-5</unique-id>
+	<command>nitrogen --save --set-zoom-fill %f</command>
+	<description></description>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>preferences-desktop-wallpaper</icon>
+	<name>Set wallpaper single</name>
+	<unique-id>1489091195323731-3</unique-id>
+	<command>nitrogen --save --set-zoom-fill  --head=0 %f  &amp;&amp; nitrogen --set-zoom-fill  --head=1 %f</command>
+	<description></description>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>catfish</icon>
+	<name>Search with catfish</name>
+	<unique-id>1489089852658523-2</unique-id>
+	<command>catfish --path=$f$d</command>
+	<description></description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>final-term</icon>
+	<name>Extract here</name>
+	<unique-id>1489091300385082-4</unique-id>
+	<command>tar xjf %n</command>
+	<description></description>
+	<patterns>*.tar.bz2;*.tbz2</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>meld</icon>
+	<name>Compare</name>
+	<unique-id>1492232362549799-1</unique-id>
+	<command>meld %F</command>
+	<description></description>
+	<patterns>*</patterns>
+	<directories/>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>cs-startup-programs</icon>
+	<name>Run</name>
+	<unique-id>1492232595223228-2</unique-id>
+	<command>termite -e %f</command>
+	<description></description>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>system-file-manager-root</icon>
+	<name>Open folder as root</name>
+	<unique-id>1493475601060449-3</unique-id>
+	<command>gksu thunar %f</command>
+	<description></description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>imagemagick</icon>
+	<name>Convert png to jpg</name>
+	<unique-id>1510662686010963-1</unique-id>
+	<command>convert %f -quality 90 `basename %f .png`.jpg</command>
+	<description>Convert png to jpg</description>
+	<patterns>*.png</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>accessories-text-editor-symbolic</icon>
+	<name>Edit as root</name>
+	<unique-id>1510662090463633-2</unique-id>
+	<command>gksudo geany %F</command>
+	<description>edit as root</description>
+	<patterns>*</patterns>
+	<text-files/>
+</action>
+<action>
+	<icon>conky-manager</icon>
+	<name>Conkyzen</name>
+	<unique-id>1510943357717982-3</unique-id>
+	<command>am-conkyzen</command>
+	<description>conkzen</description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+</actions>

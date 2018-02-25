@@ -80,6 +80,7 @@
       <property name="XF86AudioStop" type="string" value="playerctl pause"/>
       <property name="XF86AudioPrev" type="string" value="playerctl previous"/>
       <property name="XF86AudioNext" type="string" value="playerctl next"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;Return" type="string" value="exo-open --launch TerminalEmulator"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

@@ -62,4 +62,7 @@
       <property name="show-removable" type="bool" value="false"/>
     </property>
   </property>
+  <property name="desktop-menu" type="empty">
+    <property name="show" type="bool" value="false"/>
+  </property>
 </channel>

@@ -46,7 +46,7 @@
       <property name="&lt;Super&gt;f" type="string" value="exo-open --launch FileManager"/>
       <property name="&lt;Super&gt;t" type="string" value="exo-open --launch TerminalEmulator"/>
       <property name="&lt;Super&gt;w" type="string" value="exo-open --launch WebBrowser"/>
-      <property name="&lt;Super&gt;m" type="string" value="lollypop"/>
+      <property name="&lt;Super&gt;m" type="string" value="pragha"/>
       <property name="&lt;Super&gt;h" type="string" value="urxvt -T &apos;htop task manager&apos; -e htop"/>
       <property name="&lt;Super&gt;v" type="string" value="pavucontrol"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;u" type="string" value="pavucontrol"/>

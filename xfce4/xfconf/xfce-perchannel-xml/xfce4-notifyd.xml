@@ -4,18 +4,21 @@
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
       <value type="string" value="ca.desrt.dconf-editor"/>
+      <value type="string" value="chromium"/>
       <value type="string" value="com.uploadedlobster.peek"/>
+      <value type="string" value="Discord Canary"/>
       <value type="string" value="Dropbox"/>
       <value type="string" value="Electron"/>
       <value type="string" value="evolution"/>
+      <value type="string" value="FileZilla"/>
       <value type="string" value="Firefox"/>
       <value type="string" value="nm-applet"/>
       <value type="string" value="Insync"/>
       <value type="string" value="notify-send"/>
-      <value type="string" value="org.gnome.Lollypop"/>
       <value type="string" value="org.gnome.Software"/>
       <value type="string" value="Package Manager"/>
       <value type="string" value="pasystray"/>
+      <value type="string" value="pragha"/>
       <value type="string" value="Spotify"/>
       <value type="string" value="Terminal"/>
       <value type="string" value="Thunar"/>
@@ -23,6 +26,7 @@
       <value type="string" value="thunar-volman"/>
       <value type="string" value="Update Manager"/>
       <value type="string" value="Variety"/>
+      <value type="string" value="vivaldi-stable"/>
       <value type="string" value="Volume Icon"/>
       <value type="string" value="Xfce volume control"/>
       <value type="string" value="Xfce4-notifyd settings"/>

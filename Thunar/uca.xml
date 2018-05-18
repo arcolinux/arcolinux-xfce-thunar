@@ -40,20 +40,6 @@
 	<text-files/>
 </action>
 <action>
-	<icon>applications-other</icon>
-	<name>Run command ...</name>
-	<unique-id>1526631347215369-10</unique-id>
-	<command>xfce4-appfinder --collapsed</command>
-	<description></description>
-	<patterns>*</patterns>
-	<directories/>
-	<audio-files/>
-	<image-files/>
-	<other-files/>
-	<text-files/>
-	<video-files/>
-</action>
-<action>
 	<icon>preferences-desktop-wallpaper</icon>
 	<name>Set wallpaper dual</name>
 	<unique-id>1526628754365261-1</unique-id>

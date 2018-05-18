@@ -166,6 +166,16 @@
 	<video-files/>
 </action>
 <action>
+	<icon>aplication-x-executable</icon>
+	<name>Make executable</name>
+	<unique-id>1526670239648084-2</unique-id>
+	<command>chmod +x %f</command>
+	<description>Make a file execuble</description>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
 	<icon>conky-manager</icon>
 	<name>Conkyzen</name>
 	<unique-id>1510943357717982-3</unique-id>

@@ -11,9 +11,52 @@
 	<directories/>
 </action>
 <action>
+	<icon>checkbox</icon>
+	<name>Check md5sum</name>
+	<unique-id>1526634186815094-32</unique-id>
+	<command>zenity --info --title=&quot;Check md5 for %n&quot; --text=&quot;$(md5sum %f)&quot;</command>
+	<description>Check md5sum of ISO</description>
+	<patterns>*.iso;*.ISO</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>checkbox</icon>
+	<name>Check sha1sum</name>
+	<unique-id>1526633271260079-26</unique-id>
+	<command>zenity --info --title=&quot;Check sha1 for %n&quot; --text=&quot;$(sha1sum %f)&quot;</command>
+	<description>Check sha1sum of ISO</description>
+	<patterns>*.iso;*.ISO</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>insert-link-symbolic</icon>
+	<name>Create symlink</name>
+	<unique-id>1526631663081446-14</unique-id>
+	<command>ln -s  %f &quot;%n&quot;</command>
+	<description>Softlink between two files or directories</description>
+	<patterns>*</patterns>
+	<directories/>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>applications-other</icon>
+	<name>Run command ...</name>
+	<unique-id>1526631347215369-10</unique-id>
+	<command>xfce4-appfinder --collapsed</command>
+	<description></description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
 	<icon>preferences-desktop-wallpaper</icon>
 	<name>Set wallpaper dual</name>
-	<unique-id>1489091347351863-5</unique-id>
+	<unique-id>1526628754365261-1</unique-id>
 	<command>nitrogen --save --set-zoom-fill %f</command>
 	<description></description>
 	<patterns>*</patterns>
@@ -60,7 +103,7 @@
 <action>
 	<icon>cs-startup-programs</icon>
 	<name>Run</name>
-	<unique-id>1492232595223228-2</unique-id>
+	<unique-id>1526630606202525-4</unique-id>
 	<command>termite -e %f</command>
 	<description></description>
 	<patterns>*</patterns>
@@ -86,13 +129,41 @@
 	<image-files/>
 </action>
 <action>
-	<icon>accessories-text-editor-symbolic</icon>
+	<icon>ktexteditorautobrace</icon>
 	<name>Edit as root</name>
-	<unique-id>1510662090463633-2</unique-id>
+	<unique-id>1526631419798289-11</unique-id>
 	<command>gksudo geany %F</command>
 	<description>edit as root</description>
 	<patterns>*</patterns>
 	<text-files/>
+</action>
+<action>
+	<icon>settings</icon>
+	<name>Ownership to root</name>
+	<unique-id>1526631155250282-8</unique-id>
+	<command>gksu &quot;chown -R root:root %F&quot;</command>
+	<description>Change permissions to root</description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>settings</icon>
+	<name>Ownership to user</name>
+	<unique-id>1526631178674034-9</unique-id>
+	<command>gksu &quot;chown -R $USER:$USER %F&quot;</command>
+	<description>Change permissions to user</description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
 </action>
 <action>
 	<icon>conky-manager</icon>

@@ -13,10 +13,10 @@
 <action>
 	<icon>checkbox</icon>
 	<name>Check md5sum</name>
-	<unique-id>1526634186815094-32</unique-id>
+	<unique-id>1526736788575383-2</unique-id>
 	<command>zenity --info --title=&quot;Check md5 for %n&quot; --text=&quot;$(md5sum %f)&quot;</command>
 	<description>Check md5sum of ISO</description>
-	<patterns>*.iso;*.ISO</patterns>
+	<patterns>*.iso;*.ISO;*.tar.gz;*.TAR.GZ;*.zip;*.ZIP</patterns>
 	<other-files/>
 </action>
 <action>

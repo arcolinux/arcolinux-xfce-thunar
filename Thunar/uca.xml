@@ -15,7 +15,7 @@
 	<name>Check md5sum</name>
 	<unique-id>1526736788575383-2</unique-id>
 	<command>zenity --info --title=&quot;Check md5 for %n&quot; --text=&quot;$(md5sum %f)&quot;</command>
-	<description>Check md5sum of ISO</description>
+	<description>Check md5sum</description>
 	<patterns>*.iso;*.ISO;*.tar.gz;*.TAR.GZ;*.zip;*.ZIP</patterns>
 	<other-files/>
 </action>
@@ -24,7 +24,7 @@
 	<name>Check sha1sum</name>
 	<unique-id>1526633271260079-26</unique-id>
 	<command>zenity --info --title=&quot;Check sha1 for %n&quot; --text=&quot;$(sha1sum %f)&quot;</command>
-	<description>Check sha1sum of ISO</description>
+	<description>Check sha1sum</description>
 	<patterns>*.iso;*.ISO</patterns>
 	<other-files/>
 </action>

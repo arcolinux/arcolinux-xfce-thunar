@@ -53,7 +53,9 @@
         <value type="string" value="temps"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="task manager"/>
+        <value type="string" value="discord"/>
         <value type="string" value="simplescreenrecorder"/>
+        <value type="string" value="telegramdesktop"/>
         <value type="string" value="clipit"/>
         <value type="string" value="pragha music player"/>
         <value type="string" value="pamac-tray"/>

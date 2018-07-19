@@ -127,7 +127,7 @@
 	<icon>settings</icon>
 	<name>Ownership to root</name>
 	<unique-id>1526631155250282-8</unique-id>
-	<command>gksu &quot;chown -R root:root %F&quot;</command>
+	<command>gnome-keyring-daemon -r -d;gksu &quot;chown -R root:root %F&quot;</command>
 	<description>Change permissions to root</description>
 	<patterns>*</patterns>
 	<directories/>
@@ -141,7 +141,7 @@
 	<icon>settings</icon>
 	<name>Ownership to user</name>
 	<unique-id>1526631178674034-9</unique-id>
-	<command>gksu &quot;chown -R $USER:$USER %F&quot;</command>
+	<command>gnome-keyring-daemon -r -d;gksu &quot;chown -R $USER:$USER %F&quot;</command>
 	<description>Change permissions to user</description>
 	<patterns>*</patterns>
 	<directories/>

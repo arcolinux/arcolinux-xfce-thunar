@@ -166,7 +166,7 @@
 	<name>Conkyzen</name>
 	<unique-id>1510943357717982-3</unique-id>
 	<command>am-conkyzen</command>
-	<description>conkzen</description>
+	<description>conkyzen</description>
 	<patterns>*</patterns>
 	<directories/>
 	<audio-files/>

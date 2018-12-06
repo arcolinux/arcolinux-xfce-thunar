@@ -87,6 +87,7 @@
       <property name="&lt;Primary&gt;&lt;Shift&gt;Print" type="string" value="gnome-screenshot -i"/>
       <property name="&lt;Primary&gt;Print" type="string" value="xfce4-screenshooter"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xfce4-session-logout"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;p" type="string" value="pamac-manager"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

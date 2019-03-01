@@ -13,4 +13,5 @@
   <property name="misc-date-style" type="string" value="THUNAR_DATE_STYLE_ISO"/>
   <property name="misc-single-click" type="bool" value="false"/>
   <property name="misc-show-delete-action" type="bool" value="true"/>
+  <property name="misc-full-path-in-title" type="bool" value="true"/>
 </channel>

@@ -47,30 +47,33 @@
     <property name="plugin-5" type="string" value="clock"/>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
-        <value type="string" value="thunar"/>
-        <value type="string" value="vlc"/>
-        <value type="string" value="redshift-gtk"/>
-        <value type="string" value="variety"/>
+        <value type="string" value="stacer"/>
         <value type="string" value="temps"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="task manager"/>
+        <value type="string" value="evolution-alarm-notify"/>
         <value type="string" value="discord"/>
-        <value type="string" value="simplescreenrecorder"/>
-        <value type="string" value="telegramdesktop"/>
-        <value type="string" value="clipit"/>
         <value type="string" value="pragha music player"/>
+        <value type="string" value="simplescreenrecorder"/>
         <value type="string" value="pamac-tray"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="blueberry-tray.py"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="zoom"/>
+        <value type="string" value="insync.py"/>
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="variety"/>
+        <value type="string" value="flameshot"/>
         <value type="string" value="bluetooth"/>
         <value type="string" value="clipman"/>
-        <value type="string" value="evolution-alarm-notify"/>
-        <value type="string" value="insync.py"/>
-        <value type="string" value="gpick"/>
-        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="redshift-gtk"/>
         <value type="string" value="scp-dbus-service.py"/>
-        <value type="string" value="zoom"/>
-        <value type="string" value="flameshot"/>
-        <value type="string" value="blueberry-tray.py"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="gpick"/>
+        <value type="string" value="clipit"/>
+        <value type="string" value="dropbox"/>
       </property>
+      <property name="show-frame" type="bool" value="false"/>
     </property>
     <property name="plugin-7" type="string" value="whiskermenu"/>
     <property name="clipman" type="empty">

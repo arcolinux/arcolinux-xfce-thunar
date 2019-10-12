@@ -53,7 +53,7 @@
       <property name="&lt;Super&gt;Return" type="string" value="exo-open --launch TerminalEmulator"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;Return" type="string" value="thunar"/>
       <property name="&lt;Super&gt;F1" type="string" value="exo-open --launch webbrowser"/>
-      <property name="&lt;Super&gt;F2" type="string" value="subl3"/>
+      <property name="&lt;Super&gt;F2" type="string" value="atom"/>
       <property name="&lt;Super&gt;F3" type="string" value="inkscape"/>
       <property name="&lt;Super&gt;F4" type="string" value="gimp"/>
       <property name="&lt;Super&gt;F5" type="string" value="meld"/>

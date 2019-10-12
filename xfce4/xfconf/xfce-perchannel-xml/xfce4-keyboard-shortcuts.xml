@@ -66,7 +66,7 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;a" type="string" value="xfce4-appfinder"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;v" type="string" value="vivaldi-stable"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;b" type="string" value="thunar"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;w" type="string" value="subl3"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;w" type="string" value="atom"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;s" type="string" value="spotify"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;c" type="string" value="catfish"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;f" type="string" value="firefox"/>

@@ -47,8 +47,6 @@
     <property name="plugin-5" type="string" value="clock"/>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
-        <value type="string" value="stacer"/>
-        <value type="string" value="temps"/>
         <value type="string" value="evolution-alarm-notify"/>
         <value type="string" value="discord"/>
         <value type="string" value="pragha music player"/>
@@ -58,7 +56,6 @@
         <value type="string" value="blueberry-tray.py"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="task manager"/>
-        <value type="string" value="zoom"/>
         <value type="string" value="insync.py"/>
         <value type="string" value="telegramdesktop"/>
         <value type="string" value="variety"/>
